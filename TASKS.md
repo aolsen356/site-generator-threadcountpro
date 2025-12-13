@@ -8,7 +8,7 @@ Domain: threadcountpro.webcytz.com
 
 ## Bootstrap (do not modify these)
 - [x] Initialize git repository
-- [ ] Create GitHub repo (site-generator-threadcountpro)
+- [x] Create GitHub repo (site-generator-threadcountpro)
 - [ ] Set up Cloudflare hosting and custom domain
 
 ## Planning
