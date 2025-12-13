@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thread Count Pro - Find Your Perfect Bedsheets</title>
+    <meta name="description" content="Discover the ideal bedsheets for your sleep style. Our quiz matches you with sheets based on your temperature preferences, climate, budget, and material preferences.">
+    <meta name="keywords" content="bedsheets, sheets finder, thread count, cotton sheets, linen sheets, bamboo sheets, sleep quality">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Thread Count Pro - Find Your Perfect Bedsheets">
+    <meta property="og:description" content="Take our quick quiz to find bedsheets matched to your sleep preferences, climate, and budget.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://threadcountpro.webcytz.com">
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-38BF85QJG1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-38BF85QJG1');
+    </script>
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Thread Count Pro</h1>
+                <p class="tagline">Find Your Perfect Sheets</p>
+            </div>
+            <nav>
+                <a href="#quiz" class="nav-link">Take Quiz</a>
+                <a href="#how-it-works" class="nav-link">How It Works</a>
+                <a href="#about" class="nav-link">About</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <h2>Sleep Better with the Right Sheets</h2>
+                <p>Not all sheets are created equal. Your perfect sheets depend on how you sleep, where you live, and what you prefer. Take our 60-second quiz to find your ideal match.</p>
+                <button class="btn-primary" onclick="startQuiz()">Find My Perfect Sheets</button>
+            </div>
+        </section>
+
+        <!-- How It Works -->
+        <section id="how-it-works" class="how-it-works">
+            <div class="container">
+                <h2>How It Works</h2>
+                <div class="steps">
+                    <div class="step">
+                        <div class="step-number">1</div>
+                        <h3>Answer Questions</h3>
+                        <p>Tell us about your sleep temperature, climate, budget, and preferences</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">2</div>
+                        <h3>Get Matched</h3>
+                        <p>Our algorithm analyzes your answers against sheet materials and features</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">3</div>
+                        <h3>Shop Confidently</h3>
+                        <p>Browse personalized recommendations with direct links to purchase</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Quiz Section -->
+        <section id="quiz" class="quiz-section">
+            <div class="container">
+                <div class="quiz-container" id="quizContainer">
+                    <!-- Quiz content loaded by JavaScript -->
+                    <div class="quiz-intro" id="quizIntro">
+                        <h2>Sheet Finder Quiz</h2>
+                        <p>Answer 5 quick questions to find sheets matched to your needs</p>
+                        <button class="btn-primary" onclick="startQuiz()">Start Quiz</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Results Section (hidden initially) -->
+        <section id="results" class="results-section hidden">
+            <div class="container">
+                <h2>Your Recommended Sheets</h2>
+                <p class="results-intro">Based on your answers, here are the sheets we recommend for you:</p>
+                <div id="resultsContainer" class="results-grid">
+                    <!-- Results loaded by JavaScript -->
+                </div>
+                <div class="results-actions">
+                    <button class="btn-secondary" onclick="restartQuiz()">Retake Quiz</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section">
+            <div class="container">
+                <h2>About Thread Count Pro</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <h3>Why Sheet Selection Matters</h3>
+                        <p>The right sheets can dramatically improve your sleep quality. Hot sleepers need breathable materials like percale cotton or linen. Cold sleepers benefit from flannel or sateen weaves that retain warmth.</p>
+                        <p>Thread count isn't everything. A 400 thread count percale can outperform a 1000 thread count sheet with inferior construction. We consider material quality, weave type, and construction when making our recommendations.</p>
+
+                        <h3>Our Recommendation Criteria</h3>
+                        <ul>
+                            <li><strong>Temperature Regulation:</strong> How well the material breathes and wicks moisture</li>
+                            <li><strong>Durability:</strong> Expected lifespan and resistance to pilling</li>
+                            <li><strong>Feel:</strong> Crisp vs. silky, cool vs. cozy touch</li>
+                            <li><strong>Care:</strong> Washing requirements and ease of maintenance</li>
+                            <li><strong>Value:</strong> Quality relative to price point</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Thread Count Pro. All rights reserved.</p>
+            <p class="affiliate-disclosure">As an Amazon Associate, we earn from qualifying purchases.</p>
+        </div>
+    </footer>
+
+    <script src="js/products.js"></script>
+    <script src="js/quiz.js"></script>
+</body>
+</html>
