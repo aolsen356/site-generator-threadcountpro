@@ -21,7 +21,7 @@ const sheetProducts = [
         temperatureRating: 5, // 5 = coolest
         softnessRating: 5,
         durabilityRating: 4,
-        image: "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=400&q=80"
+        image: "https://m.media-amazon.com/images/I/515AghwE+vL._AC_SL500_.jpg"
     },
     {
         id: 2,
@@ -43,7 +43,7 @@ const sheetProducts = [
         temperatureRating: 5,
         softnessRating: 3,
         durabilityRating: 5,
-        image: "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=400&q=80"
+        image: "https://m.media-amazon.com/images/I/31TclKg4rSL._AC_SL500_.jpg"
     },
     {
         id: 3,
@@ -65,7 +65,7 @@ const sheetProducts = [
         temperatureRating: 5,
         softnessRating: 5,
         durabilityRating: 4,
-        image: "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=400&q=80"
+        image: "https://m.media-amazon.com/images/I/31gzVV28VdL._AC_SL500_.jpg"
     },
 
     // COLD SLEEPERS - Warm/Cozy Options
@@ -89,7 +89,7 @@ const sheetProducts = [
         temperatureRating: 1, // 1 = warmest
         softnessRating: 5,
         durabilityRating: 4,
-        image: "https://images.unsplash.com/photo-1540518614846-7eded433c457?w=400&q=80"
+        image: "https://m.media-amazon.com/images/I/31L+TQwfBEL._AC_SL500_.jpg"
     },
     {
         id: 5,
@@ -111,7 +111,7 @@ const sheetProducts = [
         temperatureRating: 1,
         softnessRating: 4,
         durabilityRating: 4,
-        image: "https://images.unsplash.com/photo-1629140727571-9b5c6f6267b4?w=400&q=80"
+        image: "https://m.media-amazon.com/images/I/51DNgvzDKkL._AC_SL500_.jpg"
     },
 
     // NEUTRAL/ALL-SEASON Options
@@ -135,7 +135,7 @@ const sheetProducts = [
         temperatureRating: 3,
         softnessRating: 5,
         durabilityRating: 4,
-        image: "https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=400&q=80"
+        image: "https://m.media-amazon.com/images/I/21i9UEybdtL._AC_SL500_.jpg"
     },
     {
         id: 7,
@@ -157,7 +157,7 @@ const sheetProducts = [
         temperatureRating: 2,
         softnessRating: 5,
         durabilityRating: 5,
-        image: "https://images.unsplash.com/photo-1588046130717-0eb0c9a3ba15?w=400&q=80"
+        image: "https://m.media-amazon.com/images/I/41o9bx2Jk3L._AC_SL500_.jpg"
     },
     {
         id: 8,
@@ -179,7 +179,7 @@ const sheetProducts = [
         temperatureRating: 4,
         softnessRating: 3,
         durabilityRating: 5,
-        image: "https://images.unsplash.com/photo-1578898886225-c7c894047899?w=400&q=80"
+        image: "https://m.media-amazon.com/images/I/61hCItGYwgL._AC_SL500_.jpg"
     },
 
     // PREMIUM OPTIONS
@@ -203,7 +203,7 @@ const sheetProducts = [
         temperatureRating: 5,
         softnessRating: 5,
         durabilityRating: 4,
-        image: "https://images.unsplash.com/photo-1631049552057-403cdb8f0658?w=400&q=80"
+        image: "https://m.media-amazon.com/images/I/41+OdlFhStL._AC_SL500_.jpg"
     },
     {
         id: 10,
@@ -225,7 +225,7 @@ const sheetProducts = [
         temperatureRating: 1,
         softnessRating: 5,
         durabilityRating: 5,
-        image: "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?w=400&q=80"
+        image: "https://m.media-amazon.com/images/I/41u6aGISMlL._AC_SL500_.jpg"
     }
 ];
 
