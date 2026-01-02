@@ -237,7 +237,7 @@ function showResults() {
         <div class="product-card ${index === 0 ? 'top-pick' : ''}">
             ${index === 0 ? '<div class="product-badge">Top Pick for You</div>' : ''}
             <img src="${product.image}" alt="${product.name}" class="product-image"
-                 onerror="this.src='https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=400&q=80'">
+                 onerror="this.onerror=null; this.style.background='#f7fafc'; this.alt='Image unavailable'">
             <div class="product-content">
                 <h3 class="product-name">${product.name}</h3>
                 <div class="product-material">${product.material}${product.threadCount ? ` • ${product.threadCount} TC` : ''}</div>
